@@ -2,11 +2,11 @@ server:
   port: 8093
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/wolfcode_seckill?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8
-    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/seckill
+    driverClassName: com.mysql.cj.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
     username: root
-    password: admin
+    password: lihao2016
     filters: stat
     maxActive: 1000
     initialSize: 100
