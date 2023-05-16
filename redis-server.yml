@@ -1,8 +1,8 @@
 spring:
   redis:
-    port: 26379
+    port: 6379
     poolMaxTotal: 500
     poolMaxWait: 500
-    host: 192.168.200.131
+    host: 192.168.200.129
     poolMaxIdle: 500
     timeout: 1000
