@@ -4,6 +4,6 @@ alipay:
   alipay_public_key: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtCVxQUiSyN33Z8/otXqrPcXkvVl331ljPOmX8UzyC2RpeGBw/Bp2aHYRSc2EDf772vnRwD7TTYW4fnRprytQu4j5DbVl0jPQ/5yth1RGCWo3H7mimOPKIBWy7eSPbw/IblG59sW1dDy9cEhAKJ5iqurGm6P/EeDrgbvtJ+0mjhnxXGPbm17rr5HG69zxbhAp6wtCCV1UJDWsjvY1dPZa+KNQnWGVMlr/RXYcLW5bdPVskEkznTl882JzZ3SWJ74aNZxqHqlMeon7d8U38zka0I/vqG7X6UXsyjg5UytTaKaP9mDC7g9QmHiqaXHAKhiAgpzUNpofwSB2LkoSMjsSGQIDAQAB
   notify_url: https://cf8f-114-247-69-29.ngrok-free.app//seckill/api/alipay/notifyUrl
   return_url: https://cf8f-114-247-69-29.ngrok-free.app//seckill/api/alipay/returnUrl
-  sign_type: "RSA2"
-  charset: "utf-8"
+  sign_type: RSA2
+  charset: utf-8
   gateway_url: https://openapi-sandbox.dl.alipaydev.com/gateway.do
